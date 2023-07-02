@@ -1,23 +1,19 @@
-# Reserva de citas para salón de peluquería
-En este proyecto hemos creado una aplicación para poder realizar reservas o administrar las mismas, dirigido a un salón de peluquería. Contamos con una base de datos MySQL que es la que nos va a permitir tanto realizar reservas como gestionar desde el administrador, todos los recursos disponibles para interactuar con el cliente.
+# Venta de Bienes Raíces de lujo
+La presente aplicación es un proyecto muy completo donde diseñamos una aplicación para vender alojamientos de lujo. En esta web existen diferentes roles, con el objetivo de tener un perfil con el que poder administrar el contenido de toda la página.
 
-La página inicial nos presenta la interfaz común a todas las vistas de la aplicación, hemos intentado ser lo más leales posibles a un estilo en concreto, dando gran importancia a la elegancia y la sencillez, a la vez de intentar diseñar una web lo más intuitiva posible.
+![intro1.png](readmeImages/realState1.png)
 
-Cada vez que alguien se registra, enviamos un correo a dicho usuario para que autentique que ha sido él quien se ha registrado, esto refuerza mucho más la seguridad e integridad del sistema. El sistema permite bloquear las inyecciones SQL y cualquier otro tipo de mala práctica contra la aplicación.
+Desde el lado del cliente podemos ver todas las  propiedades que hay disponibles, consumidas directamente desde nuestra base de datos MySQL. Desde el administrador podemos actualizar, crear o eliminar todas las propiedades y sus características.
 
-![intro1.png](readmeImages/introAppSalon.png)
+![intro1.png](readmeImages/realState2.png)
 
-Como clientes, podemos realizar reservas, tanto del tipo de corte como de fecha y hora, además de tener un resumen final con los servicios que hemos contratado.
+Por otra parte, tenemos también una sección donde se encuentran testimonios y un blog donde podemos postear diferentes publicaciones con información de interés.
 
-![intro1.png](readmeImages/introAppSalon2.png)
+![intro1.png](readmeImages/realState3.png)
 
-Del lado del administrador, podemos realizar diversas acciones, entre ellas, tenemos la capacidad de crear o eliminar servicios, al igual que editar los ya existentes.
+Del lado del cliente, tenemos la vista desde la cuál podemos realizar todas las operaciones para elegir qué mostrar en la web, desde la información de cada una de las propiedades, junto con sus respectivas imágenes, hasta los vendedores de cada una de las mismas.
 
-![intro1.png](readmeImages/introAppSalon4.png)
-
-Además, podemos consultar cada día los servicios que han contratado, mostrando todos los detalles necesarios para una buena administración del trabajo.
-
-![intro1.png](readmeImages/introAppSalon3.png)
+![intro1.png](readmeImages/realState4.png)
 
 # Tecnologías utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
