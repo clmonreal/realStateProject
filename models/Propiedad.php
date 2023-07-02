@@ -6,7 +6,7 @@ class Propiedad extends ActiveRecord {
 
     // Base DE DATOS
     protected static $tabla = 'propiedades';
-    protected static $columnasDB = ['id', 'titulo', 'precio', 'imagen', 'descripcion', 'habitaciones', 'wc', 'estacionamiento', 'creado', 'vendedorId'];
+    protected static $columnasDB = ['id', 'titulo', 'precio', 'imagen', 'descripcion', 'habitaciones', 'wc', 'estacionamiento', 'creado', 'vendedores_id'];
 
 
     public $id;
@@ -18,7 +18,7 @@ class Propiedad extends ActiveRecord {
     public $wc;
     public $estacionamiento;
     public $creado;
-    public $vendedorId;
+    public $vendedores_id;
 
     public function __construct($args = [])
     {
@@ -31,7 +31,7 @@ class Propiedad extends ActiveRecord {
         $this->wc = $args['wc'] ?? '';
         $this->estacionamiento = $args['estacionamiento'] ?? '';
         $this->creado = date('Y/m/d');
-        $this->vendedorId = $args['vendedorId'] ?? '';
+        $this->vendedores_id = $args['vendedores_id'] ?? '';
     }
 
     public function validar() {
@@ -60,7 +60,7 @@ class Propiedad extends ActiveRecord {
             self::$errores[] = 'El Número de lugares de Estacionamiento es obligatorio';
         }
         
-        if(!$this->vendedorId) {
+        if(!$this->vendedores_id) {
             self::$errores[] = 'Elige un vendedor';
         }
 

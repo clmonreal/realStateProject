@@ -9,6 +9,9 @@ class ActiveRecord {
     protected static $tabla = '';
     protected static $columnasDB = [];
 
+    protected $id;
+    protected $imagen;
+
     // Errores
     protected static $errores = [];
 
@@ -51,7 +54,7 @@ class ActiveRecord {
 
     // Busca un registro por su id
     public static function find($id) {
-        $query = "SELECT * FROM " . static::$tabla  ." WHERE id = ${id}";
+        $query = "SELECT * FROM " . static::$tabla  ." WHERE id = $id";
 
         $resultado = self::consultarSQL($query);
 
@@ -59,7 +62,7 @@ class ActiveRecord {
     }
 
     public static function get($limite) {
-        $query = "SELECT * FROM " . static::$tabla . " LIMIT ${limite}";
+        $query = "SELECT * FROM " . static::$tabla . " LIMIT $limite";
 
         $resultado = self::consultarSQL($query);
 

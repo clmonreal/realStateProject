@@ -21,7 +21,7 @@
 </main>
 
 <section class="seccion contenedor">
-    <h2>Casas y Depas en Venta</h2>
+    <h2>Casas y Apartamentos en Venta</h2>
 
     <?php 
         include 'listado.php';
@@ -34,7 +34,7 @@
 
 <section class="imagen-contacto">
     <h2>Encuentra la casa de tus sueños</h2>
-    <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo a la brevedad</p>
+    <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo lo antes posible</p>
     <a href="/contacto" class="boton-amarillo">Contactános</a>
 </section>
 
@@ -92,7 +92,7 @@
             <blockquote>
                 El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas.
             </blockquote>
-            <p>- Juan De la torre</p>
+            <p>- Carlos López Monreal</p>
         </div>
     </section>
 </div>
